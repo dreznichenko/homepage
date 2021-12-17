@@ -2,15 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    
-
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
@@ -41,7 +37,6 @@ body {
     margin: 50px auto;
     border: 1px solid #f5f5f5;
     box-shadow: 1px 1px 7px 7px #f5f5f5;
-    
     padding: 30px 0;
     max-width: 900px;
 }
@@ -53,24 +48,22 @@ body {
 }
 
 @media screen and (max-width: 576px) {
-
     .main-info,
     .contact_info_container {
         flex-direction: column;
     }
-
     .contact_info_container {
         align-items: center;
     }
-
     .contact-info__block:not(:last-child) {
         margin-bottom: 20px;
     }
-
     .experiences {
         margin-right: 0;
     }
-} .contact-info__header,
+}
+
+.contact-info__header,
 .contact-info__sub-header {
     text-align: center;
 }
@@ -131,7 +124,9 @@ body {
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
-}.intro {
+}
+
+.intro {
     display: flex;
     justify-content: start;
 }
@@ -166,10 +161,13 @@ body {
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
-}.experiences {
+}
+
+.experiences {
     flex: 1 1 60%;
     margin-right: 50px;
 }
+
 .softskills {
     flex: 1 1 60%;
     margin-right: 50px;
@@ -180,6 +178,7 @@ body {
     text-align: left;
     margin-bottom: 20px;
 }
+
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
@@ -223,6 +222,7 @@ body {
     color: var(--secondary-text-color);
     padding-left: 35px;
 }
+
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
@@ -233,7 +233,6 @@ body {
 }
 
 .additional-info__education {
-    
     margin-bottom: 20px;
 }
 
@@ -273,6 +272,7 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
 .additional-info__education-university {
     padding: 5px;
 }
